@@ -1,0 +1,616 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    display: flex;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style: none;
+}
+
+header{
+    background-color: black;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-links li a{
+    color: white;
+}
+
+.nav-links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.nav-links button{
+    padding: 9px 18px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s linear;
+}
+
+.nav-links button:hover{
+    background-color: #00D6AF;
+    color: black;
+}
+
+#FAQ{
+    background-color: black;
+    color: white;
+    border: none;
+}
+
+button{
+    padding: 9px 18px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s linear; 
+}
+
+button:hover{
+    background-color: #00D6AF;
+    color: black;
+}
+
+h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h3{
+    font-weight: 700;
+    font-size: 29px;
+    margin-bottom: 10px;
+}
+
+p{
+    font-size: 18px;   
+    font-weight: 300px;
+    margin-bottom: 25px;
+}
+
+.hero-content{
+    display: flex;
+    color: white;
+}
+
+#hero{
+    background-color: black;
+    padding-bottom: 49px;
+}
+
+.men-info{
+    align-items: center;
+}
+
+.men-haqimda{
+    color: white;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.men-info img{
+    width: 545px;
+}
+
+.figma-card{
+    border-radius: 20px;
+    width: 300px;
+    color: white;
+}
+
+.figma-cards{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+#figma{
+    background-color: black;
+}
+
+.figma-haqida{
+    color: white;
+    margin-bottom: 100px;
+}
+
+
+.figma-haqida{ 
+    align-items: center;
+}
+
+.figma-info{
+    display: flex;
+}
+
+.h2-title{
+    color: white;
+}
+
+.cards{
+    display: flex;
+}
+
+.card p{
+    color: white;
+}
+
+.li{
+    display: flex;
+    padding-bottom: 10px;
+}
+
+.li img{
+    max-width: 30px;
+    height: 30px;
+}
+
+.li p{
+    width: 367px;
+}
+
+button{
+    padding: 9px 18px;
+    border-radius: 30px;
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    border: none;
+    transition: all 0.4s linear; 
+}
+
+.men-haqimda2 h1{
+    color: white;
+    font-size: 62px;
+}
+
+.men-info2{
+    text-align: center;
+    width: 236px;
+    background-color: #111111E5;
+    color: white;
+    border-radius: 10px;
+    border: 2px solid white;
+    padding: 10px;
+    border: none;
+}
+
+.men-info2 h3{
+    font-size: 62px;
+}
+
+.men-haqimda2 p{
+    color: white;
+}
+
+
+.oxsha{
+    display: flex;
+    gap: 24px;
+    flex-direction: column;
+}
+
+.oxsha .img{
+    width: 555px;
+}
+
+.men-haqimda2{
+    display: flex;
+}
+
+h1{
+    color: white;
+}
+
+.men-info3 img{
+    color: white;
+    margin-bottom: 30px;
+}
+
+.men-info3 p{
+    color: white;
+}
+
+.men-haqimda3{
+    display: flex;
+}
+
+.men-info4{
+    margin-left: 130px;
+    margin-bottom: 148px;
+}
+
+.men-info5{
+    display: block;
+}
+
+.men-info5 h1{
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+    margin-bottom: 36px;
+}
+
+.men-info5 h3{
+    color: white;
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.men-info5 p{
+    color: white;
+    margin-bottom: 33px;
+}
+
+.men-info5 img{
+    width: 400px;
+}
+
+.men-haqimda5{
+    display: flex;
+}
+
+.men-info6 h1{
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+}
+
+.men-info6 h2{
+    text-align: center;
+    font-size: 34px;
+    font-weight: 700;
+    color: white;
+}
+
+.men-info6 p{
+    color: white;
+}
+
+
+.men-info6 button{
+    padding: 15px 35px;
+    background-color: #111111E5;
+    border: solid 2px white;
+    cursor: pointer;
+    margin-bottom: 44px;
+    color: white;
+    margin-left: 25px;
+    transition: all 0.4s linear;
+}
+
+.men-info6 button:hover{
+    background-color: #00D6AF;
+    border: none;
+    color: #111111E5;
+}
+
+.men-haqimda6{
+    display: flex;
+}
+
+.cart h3{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 40px;
+    color: white;
+}
+
+.carts{
+    display: flex;
+    gap: 25px;
+}
+
+
+.cart{
+    border-radius: 10px;
+    width: 327px;
+    background-color: #0F0F0F;
+    margin-bottom: 25px;
+}
+
+.cart .but{
+    padding: 15px 25px;
+    background-color: #00D6AF;
+    border: none;
+    color: #111111E5;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.cart .but:hover{
+    background-color: white;
+    color: #111111E5;
+}
+
+.but2{
+    width: 581px;
+    background-color: #00D6AF;
+    border: none;
+    color: white;
+    border-radius: 0;
+    cursor: pointer;
+    transition: all 0.4s linear;
+}
+
+.h1-title{
+    text-align: center;
+    font-size: 62px;
+    font-weight: 700;
+    margin-bottom: 64px;
+}
+
+.men-haqimda7{
+    display: flex;
+}
+
+.men-info7 .title{
+    color: #9A9A9A;
+}
+
+.men-info7 h3{
+    color: white;
+    font-weight: 700;
+    font-size: 40px;
+}
+
+.men-info7 p{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 139px;
+}
+
+.men-info8 img{
+    width: 358.13px;
+}
+
+.men-info8 h3{
+    color: white;
+    font-size: 55px;
+    font-weight: 700;
+}
+
+.men-info8 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.men-haqimda8{
+    display: flex;
+    gap: 220px;
+    margin-bottom: 109px;
+}
+
+.men-info8 .but1 .but1{
+    background-color: #111111E5;
+    cursor: pointer;
+    color: #00D6AF;
+    border: none;
+}
+
+.men-haqimda9{
+    display: flex;
+    gap: 20px;
+}
+
+.cart2 p{
+    color: white;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+
+.cart2{
+    background-color: #0F0F0F;
+    border-radius: 10px;
+    width: 380px;
+    margin-bottom: 120px;
+}
+
+h2{
+    color: white;
+     font-size: 62px;
+    font-weight: 700;
+}
+
+.men-info10 h1{
+    color: white;
+    font-size: 144px;
+    font-weight: 700;
+}
+
+.men-info10 h3{
+    color: #9A9A9A;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.men-info10 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.men-info10 img{
+    width: 400px;
+    height: 400px;
+    margin-bottom: 100px;
+}
+
+.men-haqimda10{
+    display: flex;
+}
+
+.cart3 img{
+    max-width: 500px;
+    height: 600px;
+    width: 100%;
+}
+
+.cart3 button{
+    margin-bottom: 200px;
+}
+
+.men-info12 p{
+    color: white;
+    font-size: 29px;
+    font-weight: 700;
+}
+
+.men-info12 h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.men-haqimda13 img{
+    max-width: 500px;
+    width: 100%;
+}
+
+.men-haqimda13{
+    display: flex;
+    text-align: center;
+}
+
+.men-info13 p{
+    color: white;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.footer-img{
+    width: 177px;
+    height: 224px;
+}
+
+footer h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+}
+
+footer p{
+    color: white;
+}
+
+.men-haqimda14{
+    display: flex;
+    gap: 100px;
+    margin-left: 200px;
+}
+
+body{
+    background-color: black;
+}
+
+.cart4 h3{
+    color: white;
+}
+
+.cart4 p{
+    color: white;
+}
+
+.cart4 img{
+    max-width: 360px;
+    width: 100%;
+}
+
+.carts4{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.men-info14 .h3-1{
+    margin-top: 100px;
+}
+
+.footer-img{
+    margin-top: 100px;
+}
+
+.men-info14 input{
+    color: black;
+    justify-content: center;
+    padding: 20px 100px;
+    border-radius: 5px;
+    margin-left: 440px;
+    width: 335px;
+}
+
+footer .h3{
+text-align: center;
+}
+
+.button{
+    background-color: #00D6AF;
+    padding: 20px 30px;
+    border-radius: 5px;
+    color: black;
+    transition: all 0.4s li;
+}
+
+.button:hover{
+    background-color: #111111E5;
+    color: white;
+}
+
+footer p{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.men-info15 h3{
+    color: white;
+}
+
+.men-info15 p{
+    color: white;
+}
+
+.cart5 h3{
+    color: white;
+}
+
+.cart5 p{
+    color: white;
+}
+
+.carts5{
+    display: flex;
+    gap: 19px;
+    margin-bottom: 150px;
+
+}
